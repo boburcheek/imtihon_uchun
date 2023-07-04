@@ -7,7 +7,7 @@ class AuthorSerializer(ModelSerializer):
 
     class Meta:
         model = models.Author
-        fields = ("id","full_name", "photo", "created_at")
+        fields = ("id", "full_name", "photo", "created_at")
 
 
 class BookSerializer(ModelSerializer):
