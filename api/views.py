@@ -32,3 +32,4 @@ class AuthorRetrieveAPIView(RetrieveAPIView):
 class BookRetrieveAPIView(RetrieveAPIView):
     queryset = Book.objects.all().order_by("-id")
     serializer_class = serializer.BookSerializer
+
